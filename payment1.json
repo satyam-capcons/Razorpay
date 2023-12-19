@@ -1,0 +1,62 @@
+{
+    "entity": "event",
+    "account_id": "acc_MJJwteVx74QpWF",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_NBrZAqsinmDLK2",
+                "entity": "payment",
+                "amount": 20000,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_NBrY91VAeyzKeU",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Test Transaction",
+                "card_id": "card_NBrZAuOUkVagsC",
+                "card": {
+                    "id": "card_NBrZAuOUkVagsC",
+                    "entity": "card",
+                    "name": "",
+                    "last4": "5449",
+                    "network": "MasterCard",
+                    "type": "credit",
+                    "issuer": "UTIB",
+                    "international": false,
+                    "emi": false,
+                    "sub_type": "consumer",
+                    "token_iin": null
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "satyamsingh20027@gmail.com",
+                "contact": "+918349880781",
+                "notes": {
+                    "address": "Razorpay Corporate Office"
+                },
+                "fee": 400,
+                "tax": 0,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "auth_code": "304020"
+                },
+                "created_at": 1702477775,
+                "base_amount": 20000
+            }
+        }
+    },
+    "created_at": 1702477780
+}
